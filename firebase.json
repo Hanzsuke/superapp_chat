@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "build",
+    "public": "build", // atau "dist" kalau pakai Vite
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {

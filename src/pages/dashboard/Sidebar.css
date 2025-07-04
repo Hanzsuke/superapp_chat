@@ -1,0 +1,28 @@
+.sidebar {
+  background: rgba(0,0,0,0.2);
+  padding: 1rem;
+  border-right: 1px solid #444;
+  width: 240px;
+  height: 100vh;
+  color: white;
+}
+
+.sidebar-profile img {
+  border-radius: 50%;
+  width: 80px;
+  margin-bottom: 0.5rem;
+}
+
+.role-badge {
+  padding: 2px 8px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+.role-badge.user {
+  background-color: #3b82f6;
+}
+.role-badge.developer {
+  background-color: #f59e0b;
+}

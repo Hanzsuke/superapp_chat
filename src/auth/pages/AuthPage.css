@@ -1,0 +1,21 @@
+.auth-container {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.auth-toggle button {
+  margin: 5px;
+  padding: 5px 12px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.toggle-icon {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+/* src/auth/pages/dev-login.css */
+.dev-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  height: 100vh;
+  color: white;
+}
+
+.dev-login-box {
+  background: rgba(0,0,0,0.3);
+  padding: 3rem;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(255,215,0,0.5);
+}
+
+input, button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+}
+
+button {
+  background: linear-gradient(to right, #facc15, #f59e0b);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
